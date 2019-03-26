@@ -1,0 +1,20 @@
+//This program is built to calculate the total ticket sales after each football game.
+
+#include <iostream>
+#include <conio.h>
+using namespace std;
+
+int main()
+{
+	double mass, density;
+	cout << "Enter Mass:" <<endl;
+	cin >> mass;
+	cout << "Mass: " << mass << "g" <<endl;
+	cout << "Enter Density: " << endl;
+	cin>> density;
+	cout << "Density: " << density << "g/cm^3" << endl;
+	cout << "Total volume of object: " << mass/(4*density) << "cm^3" << endl;
+	_getch();
+	return 0;
+}
+
